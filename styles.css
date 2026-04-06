@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lobster Two", cursive, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #eeeeae;
+    background: radial-gradient(circle, rgba(238, 238, 174, 1) 0%, rgba(148, 196, 233, 1) 100%);
+    color: black;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.appName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notesLogo {
+    width: 50px;
+}
+
+.addNoteBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #EEEEAE;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 30px 0 20px;
+    font-size: 16px;
+}
+
+.addNoteBtn img {
+    width: 20px;
+}
+
+/* Text Area */
+.inputBox {
+    position: relative;
+    max-width: 500px;
+    background-color: #FAFAE6;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    min-height: 150px;
+}
+
+/* Delete Icon */
+.deleteIcon {
+    position: absolute;
+    width: 30px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
